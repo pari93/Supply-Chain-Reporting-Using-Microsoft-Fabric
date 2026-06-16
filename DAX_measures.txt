@@ -1,0 +1,32 @@
+Total Volume cbm = SUM(gold_fact_terminal_movement[volume_cbm])
+
+Movement Count = COUNTROWS(gold_fact_terminal_movement)
+
+Completed Movement Count = CALCULATE([Movement Count], gold_fact_terminal_movement[movement_status] = "Completed")
+
+Delayed Movement Count = CALCULATE([Movement Count], gold_fact_terminal_movement[is_delayed] = 1)
+
+Delay Rate % = DIVIDE([Delayed Movement Count], [Movement Count])
+
+Average Delay Hours = AVERAGE(gold_fact_terminal_movement[delay_hours])
+
+Estimated Handling Revenue EUR = SUM(gold_fact_terminal_movement[estimated_handling_fee_eur])
+
+Reserved Capacity cbm =
+CALCULATE (
+    SUM ( gold_dim_customer_contract[reserved_capacity_cbm] ),
+    TREATAS (
+        VALUES ( gold_dim_terminal[terminal_code] ),
+        gold_dim_customer_contract[terminal_code]
+    ),
+    TREATAS (
+        VALUES ( gold_dim_product[product_code] ),
+        gold_dim_customer_contract[product_code]
+    )
+)
+
+Total Terminal Capacity cbm = SUM(gold_dim_terminal[total_capacity_cbm])
+
+Reserved Capacity % = DIVIDE([Reserved Capacity cbm], [Total Terminal Capacity cbm])
+
+Contract Count = DISTINCTCOUNT ( gold_dim_customer_contract[contract_id] )

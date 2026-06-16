@@ -1,0 +1,9 @@
+terminal_code,terminal_name,country,port_hub,total_capacity_cbm,number_of_tanks,operational_since,specialty,source_url,last_modified_utc
+ALG,Algeciras,Spain,Algeciras,403000,22,2013,Bunkering / marine fuels / methanol,https://www.evos.eu/algeciras/,2026-06-01T08:00:00Z
+AME,Amsterdam East,Netherlands,Amsterdam,1200000,80,2011,Fuels / gasoline / diesel,https://www.evos.eu/amsterdam-east/,2026-06-01T08:00:00Z
+AMW,Amsterdam West,Netherlands,Amsterdam,1200000,60,1968,Blending hub / gasoline / diesel,https://www.evos.eu/amsterdam-west/,2026-06-01T08:00:00Z
+GHE,Ghent,Belgium,Ghent,1000000,90,1968,Chemicals / fuels / renewables,https://www.evos.eu/ghent/,2026-06-01T08:00:00Z
+HAM,Hamburg,Germany,Hamburg,670000,149,1953,Chemicals / mineral oil / biofuels,https://www.evos.eu/hamburg/,2026-06-01T08:00:00Z
+MLT,Malta,Malta,Marsaxlokk,540000,19,2012,Mediterranean fuel storage,https://www.evos.eu/malta/,2026-06-01T08:00:00Z
+ROT,Rotterdam,Netherlands,Rotterdam,420000,17,2004,Methanol / ethanol / biofuels,https://www.evos.eu/rotterdam/,2026-06-01T08:00:00Z
+TER,Terneuzen,Netherlands,Terneuzen,1000000,82,1969,Chemicals / fuels / energy products,https://www.evos.eu/terneuzen/,2026-06-01T08:00:00Z

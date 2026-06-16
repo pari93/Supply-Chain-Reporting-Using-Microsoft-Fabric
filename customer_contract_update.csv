@@ -1,0 +1,2 @@
+contract_id,customer_code,customer_name,customer_type,customer_country,terminal_code,product_code,contract_start_date,contract_end_date,reserved_capacity_cbm,storage_fee_eur_per_cbm_month,handling_fee_eur_per_cbm,contract_status,last_modified_utc
+CON001,CUST02,Atlantic Bunkers Updated,Bunkering,Spain,ALG,ETH,2026-01-16,2026-11-06,15000,1.83,0.49,Active,2026-06-17T09:00:00Z

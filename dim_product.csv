@@ -1,0 +1,10 @@
+product_code,product_name,product_family,is_new_energy,typical_density_kg_m3,last_modified_utc
+MFO,Marine Fuel Oil,Fuel,No,980,2026-06-01T08:00:00Z
+MGO,Marine Gas Oil,Fuel,No,850,2026-06-01T08:00:00Z
+DSL,Diesel,Fuel,No,832,2026-06-01T08:00:00Z
+GSL,Gasoline,Fuel,No,745,2026-06-01T08:00:00Z
+ETH,Ethanol,Biofuel,Yes,789,2026-06-01T08:00:00Z
+METH,Methanol,New Energy,Yes,792,2026-06-01T08:00:00Z
+BDL,Biodiesel,Biofuel,Yes,880,2026-06-01T08:00:00Z
+CHEM,Liquid Chemicals,Chemicals,No,950,2026-06-01T08:00:00Z
+SAF,Sustainable Aviation Fuel,New Energy,Yes,800,2026-06-01T08:00:00Z

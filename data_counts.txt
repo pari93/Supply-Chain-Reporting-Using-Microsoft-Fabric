@@ -1,0 +1,10 @@
+Initial source row counts -
+
+terminal: 8
+product: 9
+customer_contracts: 17
+terminal_movements: 500
+
+After incremental load -
+product: 10
+expected after incremental movement load: 530
